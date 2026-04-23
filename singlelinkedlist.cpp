@@ -116,3 +116,14 @@ int main()
     int nim;
     char pilihan;
 
+    do
+    {
+        cout << "\n===== MENU =====\n";
+        cout << "1. Tambah data\n";
+        cout << "2. Hapus data\n";
+        cout << "3. Tampilkan data\n";
+        cout << "4. Cari data\n";
+        cout << "5. Keluar\n";
+        cout << "Pilihan (1-5): ";
+        cin >> pilihan;
+
